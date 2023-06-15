@@ -62,7 +62,7 @@ from numpy import dstack
 from keras.layers import TimeDistributed
 
 #################################Import Data
-HAR = pd.read_csv(r'D:\University\Tehran University\Statistical Machine learning _ Dr.Amini\Project\Python\Data\time_series_data_human_activities.csv')
+HAR = pd.read_csv(r'D:Data\time_series_data_human_activities.csv')
 
 ################################# Describe Data
 HAR.info
